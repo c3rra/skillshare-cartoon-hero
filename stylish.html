@@ -33,7 +33,9 @@
 		font-style: italic;
 	}
 
-	
+	h2 span{
+		font-style: line-through;
+	} /* a SPAN tag will inherit the style attributes of whatever it's parent element is. You can't see this in  example code here/below with Try Me in h2 span being line-through AND italic, because those attributes are defined in this style tag - otherwise it would just have the same attributes as the h2 tag.*/
 
 	</style>
 </head>
@@ -43,9 +45,8 @@
 <h1 class="small">Heading 1-3</h1>
 <h2>Heading 2-1</h2>
 <h2 class="small" >Heading 2-2</h2>
-<h2>Heading 2-3 <span>Try Me</span></h2>
+<h2>Heading 2-3 <span>Try Me</span></h2> 
 <span>Try Me</span> 
-
 
 
 </body>
